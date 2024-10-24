@@ -1,7 +1,3 @@
-/*
-  O LSP diz que em todos os subtipos de discount, o comportamento de calculate deve ser igual. Ou seja, eu não poderia implementar a função calculate novamente em algum subtipo de Discount, pois aí, apesar, de o programa poder funcionar normalmente, a função calculate do subtipo que a implementou novamente, terá um "comportamento diferente". Por exemplo, poderia fazer ela retornar qualquer coisa.
-*/
-
 export abstract class Discount {
   protected discount = 0;
 
